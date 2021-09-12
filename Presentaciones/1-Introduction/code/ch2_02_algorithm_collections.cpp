@@ -106,7 +106,7 @@ int main() {
   printf("==================\n");
 
   // binary search using lower bound
-  pos = lower_bound(arr, arr + 5, 7);                              // found
+  pos = lower_bound(arr, arr + 5, 7);   //Igual o mayor                           // found
   printf("%d\n", *pos);
   j = lower_bound(v.begin(), v.end(), 7);
   printf("%d\n", *j);
