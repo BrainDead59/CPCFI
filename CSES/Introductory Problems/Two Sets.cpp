@@ -11,7 +11,7 @@ int main(){
         printf("YES\n");
         vector<long long int> A,B;
         long long int limite = (n*(n+1))/4;
-
+        printf("Limite: %lld\n",limite);
          while (n){
             if (limite - n>= 0){
                 A.push_back(n);
